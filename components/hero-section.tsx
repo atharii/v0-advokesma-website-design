@@ -41,7 +41,7 @@ export function HeroSection() {
               {"Bidang Advokesma Himpunan Mahasiswa Elektro UNDIP"}
             </h1>
 
-            <p className="text-base sm:text-xl lg:text-2xl font-bold text-white/90 text-left">
+            <p className="text-base sm:text-xl lg:text-2xl font-bold text-white/90 text-center">
               #KAMIDENGARKAMISUARAKAN
             </p>
 
