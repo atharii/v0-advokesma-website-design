@@ -1,6 +1,5 @@
 import { Navbar } from "@/components/navbar"
 import { HeroSection } from "@/components/hero-section"
-import { FeaturedNewsSection } from "@/components/featured-news-section"
 import { AboutSection } from "@/components/about-section"
 import { DivisionSection } from "@/components/division-section"
 import { ServicesSection } from "@/components/services-section"
@@ -12,7 +11,6 @@ export default function Home() {
     <main className="min-h-screen bg-background">
       <Navbar />
       <HeroSection />
-      <FeaturedNewsSection />
       <AboutSection />
       <DivisionSection />
       <ServicesSection />
