@@ -21,10 +21,10 @@ export function AboutSection() {
           </h2>
 
           <div className="space-y-4 sm:space-y-6 text-muted-foreground text-sm sm:text-base lg:text-lg leading-relaxed">
-            <p className="text-justify">
+            <p className="text-center">
                                             {"Bidang Advokasi dan Kesejahteraan Mahasiswa (ADVOKESMA) HME merupakan bidang yang berperan dalam mengawal hak, aspirasi, dan kesejahteraan mahasiswa Teknik Elektro Universitas Diponegoro, baik pada aspek akademik maupun non-akademik. ADVOKESMA menjadi penghubung antara mahasiswa dengan pihak departemen dalam menciptakan lingkungan akademik yang adil dan suportif."}
             </p>
-            <p className="text-justify">
+            <p className="text-center">
               Dalam menjalankan perannya, ADVOKESMA menaungi Divisi Kajian Aksi Strategis, Pelayanan, dan Akademik yang bekerja secara terintegrasi untuk menyediakan layanan advokasi, kesejahteraan, serta penguatan kualitas akademik mahasiswa berbasis kebutuhan riil dan berkelanjutan.
             </p>
           </div>

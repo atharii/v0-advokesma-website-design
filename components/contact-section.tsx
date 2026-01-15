@@ -81,8 +81,7 @@ export function ContactSection() {
             </div>
 
             <p className="text-white/70 text-center text-xs sm:text-sm">
-              Silakan hubungi kami untuk pertanyaan seputar UKT, beasiswa, bank soal, dan isu kesejahteraan mahasiswa
-              lainnya.
+              Saluran resmi komunikasi dan layanan advokasi mahasiswa Teknik Elektro UNDIP.
             </p>
           </CardContent>
         </Card>
