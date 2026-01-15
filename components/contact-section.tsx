@@ -81,7 +81,7 @@ export function ContactSection() {
             </div>
 
             <p className="text-white/70 text-center text-xs sm:text-sm">
-              Saluran resmi komunikasi dan layanan advokasi mahasiswa Teknik Elektro UNDIP.
+              Saluran resmi komunikasi dan layanan Bidang Advokesma Himpunan Mahasiswa Elektro UNDIP.
             </p>
           </CardContent>
         </Card>
