@@ -33,7 +33,7 @@ export function ContactSection() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
               {/* Email Card */}
               <a
-                href="mailto:advokesma.hme@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=advokesma.hmeftundip@gmail.com"
                 className="flex flex-col sm:flex-col items-center sm:items-center gap-3 p-4 sm:p-5 rounded-xl bg-white/5 hover:bg-white/10 transition-colors group text-center"
               >
                 <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-white/20 transition-colors shrink-0">
@@ -41,7 +41,9 @@ export function ContactSection() {
                 </div>
                 <div className="text-center">
                   <p className="text-white/60 text-xs sm:text-sm mb-1">Email</p>
-                  <p className="text-white font-medium text-xs sm:text-sm break-all">advokesma.hmeftundip@gmail.com</p>
+                  <p className="text-white font-medium text-xs sm:text-sm break-all text-center">
+                    advokesma.hmeftundip@gmail.com
+                  </p>
                 </div>
               </a>
 
@@ -63,7 +65,7 @@ export function ContactSection() {
 
               {/* Instagram Card */}
               <a
-                href="#"
+                href="https://www.instagram.com/advokesma.hmeftundip/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col sm:flex-col items-center sm:items-center gap-3 p-4 sm:p-5 rounded-xl bg-white/5 hover:bg-white/10 transition-colors group text-center"

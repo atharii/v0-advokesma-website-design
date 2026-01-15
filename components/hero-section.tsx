@@ -37,15 +37,14 @@ export function HeroSection() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
             )}
           >
-            <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-snug sm:leading-tight text-balance">
-              Bidang Advokesma Himpunan Mahasiswa Elektro UNDIP
+            <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-snug sm:leading-tight text-balance text-center">
+              {"Bidang Advokesma Himpunan Mahasiswa Elektro UNDIP"}  
             </h1>
 
-            <p className="text-base sm:text-xl lg:text-2xl font-bold text-white/90">#KAMIDENGARKAMISUARAKAN</p>
+            <p className="text-base sm:text-xl lg:text-2xl font-bold text-white/90 text-center">#KAMIDENGARKAMISUARAKAN</p>
 
             <p className="text-white/80 text-xs sm:text-base lg:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Pusat informasi advokasi, pelayanan, dan akademik untuk seluruh mahasiswa Teknik Elektro UNDIP. Dari UKT,
-              bank soal, hingga kesejahteraan mahasiswa — semuanya di sini.
+              Pusat layanan advokasi dan kesejahteraan mahasiswa Teknik Elektro Universitas Diponegoro.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 pt-2 sm:pt-4 justify-center lg:justify-start">

@@ -21,13 +21,11 @@ export function AboutSection() {
           </h2>
 
           <div className="space-y-4 sm:space-y-6 text-muted-foreground text-sm sm:text-base lg:text-lg leading-relaxed">
-            <p className="text-center">
-              Bidang Advokesma Himpunan Mahasiswa Elektro UNDIP berfokus pada pemenuhan kesejahteraan mahasiswa, baik
-              akademik maupun non-akademik. Advokesma menjadi jembatan antara mahasiswa dan pihak Departemen untuk
-              memastikan hak, kebutuhan, dan aspirasi mahasiswa tersalurkan dengan tepat.
+            <p className="text-justify">
+                                            {"Bidang Advokasi dan Kesejahteraan Mahasiswa (ADVOKESMA) HME merupakan bidang yang berperan dalam mengawal hak, aspirasi, dan kesejahteraan mahasiswa Teknik Elektro Universitas Diponegoro, baik pada aspek akademik maupun non-akademik. ADVOKESMA menjadi penghubung antara mahasiswa dengan pihak departemen dalam menciptakan lingkungan akademik yang adil dan suportif."}
             </p>
-            <p className="text-center">
-              Melalui tiga divisi Advokasi, Pelayanan, dan Akademik, Advokesma menyediakan berbagai layanan, mulai dari pendampingan banding UKT, inventarisasi isu, dan pelayanan sosial, hingga penyediaan bank soal serta dukungan akademik lainnya.
+            <p className="text-justify">
+              Dalam menjalankan perannya, ADVOKESMA menaungi Divisi Kajian Aksi Strategis, Pelayanan, dan Akademik yang bekerja secara terintegrasi untuk menyediakan layanan advokasi, kesejahteraan, serta penguatan kualitas akademik mahasiswa berbasis kebutuhan riil dan berkelanjutan.
             </p>
           </div>
 
@@ -37,7 +35,7 @@ export function AboutSection() {
               alt="#KAMIDENGAR KAMISUARAKAN"
               width={600}
               height={150}
-              className="mx-auto w-full max-w-md sm:max-w-lg lg:max-w-xl h-auto"
+              className="mx-auto max-w-md sm:max-w-lg lg:max-w-xl h-auto w-full"
             />
           </div>
         </div>

@@ -10,7 +10,7 @@ export function Footer() {
             <Image src="/images/logo-20hme-201.png" alt="Logo HME" width={48} height={48} className="w-12 h-12" />
             <div>
               <p className="text-white font-semibold text-sm sm:text-base">
-                Bidang Advokesma Himpunan Mahasiswa Elektro UNDIP 2025
+                Bidang Advokesma Himpunan Mahasiswa Elektro UNDIP 2026
               </p>
               <p className="text-white/70 text-xs sm:text-sm mt-1">#KAMIDENGARKAMISUARAKAN</p>
             </div>

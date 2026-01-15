@@ -21,7 +21,7 @@ import {
 const divisions = [
   {
     id: "advokasi",
-    title: "Divisi Advokasi",
+    title: "Divisi Kastrat", // changed from "Divisi Advokasi" to "Divisi Kastrat"
     icon: Scale,
     description:
       "Divisi Advokasi bertugas menampung, mengkaji, dan mengadvokasikan aspirasi mahasiswa Teknik Elektro kepada pihak Departemen dan fakultas. Fokus pada isu-isu akademik, sarana prasarana, serta kebijakan kampus, termasuk pendampingan banding dan penyesuaian UKT.",
