@@ -24,7 +24,7 @@ export function Footer() {
               className="inline-flex items-center gap-2 text-white/80 hover:text-white transition-colors mb-2"
             >
               <Instagram className="w-5 h-5" />
-              <span className="text-sm">@advokesma.hmeftundip</span>
+              <span className="text-sm">@hme_undip</span>
             </a>
             <p className="text-white/60 text-xs sm:text-sm">Departemen Teknik Elektro, Fakultas Teknik</p>
             <p className="text-white/60 text-xs sm:text-sm">Universitas Diponegoro</p>
@@ -32,7 +32,7 @@ export function Footer() {
         </div>
 
         <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-white/10 text-center">
-          <p className="text-white/40 text-xs">{"© 2025 Advokesma HME Elektro UNDIP. All rights reserved."}
+          <p className="text-white/40 text-xs">{"© 2026 Advokesma HME Elektro UNDIP. All rights reserved."}
 
 
 

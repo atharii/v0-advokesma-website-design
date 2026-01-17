@@ -21,10 +21,10 @@ import {
 const divisions = [
   {
     id: "advokasi",
-    title: "Divisi Kastrat", // changed from "Divisi Advokasi" to "Divisi Kastrat"
+    title: "Divisi Kastrat",
     icon: Scale,
     description:
-      "Divisi Advokasi bertugas menampung, mengkaji, dan mengadvokasikan aspirasi mahasiswa Teknik Elektro kepada pihak Departemen dan fakultas. Fokus pada isu-isu akademik, sarana prasarana, serta kebijakan kampus, termasuk pendampingan banding dan penyesuaian UKT.",
+      "Divisi Kastrat bertugas menampung, mengkaji, dan mengadvokasikan aspirasi mahasiswa Teknik Elektro kepada pihak Departemen dan fakultas. Fokus pada isu-isu akademik, sarana prasarana, serta kebijakan kampus.",
     programs: [
       {
         title: "Forum Dosen Mahasiswa",
@@ -105,6 +105,24 @@ const divisions = [
 export function DivisionSection() {
   const { ref, isVisible } = useScrollAnimation()
   const [expandedDivision, setExpandedDivision] = useState<string | null>(null)
+  const [editableDivisions, setEditableDivisions] = useState(divisions)
+  const [editingId, setEditingId] = useState<string | null>(null)
+  const [editingDescription, setEditingDescription] = useState("")
+
+  const handleEditDescription = (divisionId: string) => {
+    const division = editableDivisions.find((d) => d.id === divisionId)
+    if (division) {
+      setEditingId(divisionId)
+      setEditingDescription(division.description)
+    }
+  }
+
+  const handleSaveDescription = (divisionId: string) => {
+    setEditableDivisions((prev) =>
+      prev.map((d) => (d.id === divisionId ? { ...d, description: editingDescription } : d)),
+    )
+    setEditingId(null)
+  }
 
   return (
     <section id="divisi" className="py-16 sm:py-20 lg:py-28 bg-gradient-to-b from-elektro-light/5 to-background">
@@ -119,7 +137,7 @@ export function DivisionSection() {
         </div>
 
         <Accordion type="single" collapsible className="space-y-3 sm:space-y-4" onValueChange={setExpandedDivision}>
-          {divisions.map((division, index) => (
+          {editableDivisions.map((division, index) => (
             <AccordionItem
               key={division.id}
               value={division.id}
@@ -138,9 +156,42 @@ export function DivisionSection() {
                 </div>
               </AccordionTrigger>
               <AccordionContent className="px-4 sm:px-6 pb-4 sm:pb-6 pt-2">
-                <p className="text-muted-foreground leading-relaxed text-sm sm:text-base pl-0 sm:pl-16 mb-6">
-                  {division.description}
-                </p>
+                {editingId === division.id ? (
+                  <div className="mb-6 pl-0 sm:pl-16">
+                    <textarea
+                      value={editingDescription}
+                      onChange={(e) => setEditingDescription(e.target.value)}
+                      className="w-full p-3 border border-border rounded-lg text-sm sm:text-base bg-muted text-foreground focus:outline-none focus:ring-2 focus:ring-elektro-primary"
+                      rows={4}
+                    />
+                    <div className="flex gap-2 mt-3">
+                      <button
+                        onClick={() => handleSaveDescription(division.id)}
+                        className="px-4 py-2 bg-elektro-primary text-white rounded-lg text-sm font-medium hover:bg-elektro-dark transition-colors"
+                      >
+                        Simpan
+                      </button>
+                      <button
+                        onClick={() => setEditingId(null)}
+                        className="px-4 py-2 bg-muted text-foreground rounded-lg text-sm font-medium hover:bg-muted/80 transition-colors"
+                      >
+                        Batal
+                      </button>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="mb-6 pl-0 sm:pl-16">
+                    <p className="text-muted-foreground leading-relaxed text-sm sm:text-base mb-3">
+                      {division.description}
+                    </p>
+                    <button
+                      onClick={() => handleEditDescription(division.id)}
+                      className="text-elektro-primary text-xs sm:text-sm font-medium hover:underline"
+                    >
+                      Edit Penjelasan
+                    </button>
+                  </div>
+                )}
 
                 <div className="mt-6 pt-6 border-t border-border">
                   <h4 className="text-sm font-semibold text-foreground mb-4 pl-0 sm:pl-16">Program Kerja</h4>
