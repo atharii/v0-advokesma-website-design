@@ -27,17 +27,13 @@ export function AboutSection() {
               maupun non-akademik. ADVOKESMA menjadi penghubung antara mahasiswa dengan pihak departemen dalam
               menciptakan lingkungan akademik yang adil dan suportif.
             </p>
-            <p className="text-center">
-              Dalam menjalankan perannya, ADVOKESMA menaungi Divisi Kajian Aksi Strategis, Pelayanan, dan Akademik yang
-              bekerja secara terintegrasi untuk menyediakan layanan advokasi, kesejahteraan, serta penguatan kualitas
-              akademik mahasiswa berbasis kebutuhan riil dan berkelanjutan.
-            </p>
+
           </div>
         </div>
       </div>
       <div className="w-full mt-8 sm:mt-10">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bagian%203-EHIFry6GJL2yUmRUd9rn7qVO63hsi0.jpg"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bagian%203-kqWmJM5yzFA33kPuJcMZq4MOJxdBb6.jpg"
           alt="#KAMIDENGAR KAMISUARAKAN"
           width={1200}
           height={250}

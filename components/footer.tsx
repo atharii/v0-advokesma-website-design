@@ -23,11 +23,11 @@ export function Footer() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-white/80 hover:text-white transition-colors mb-2"
             >
-              <Instagram className="w-5 h-5" />
-              <span className="text-sm">@hme_undip</span>
+              
+              <span className="text-sm">Departemen Teknik Elektro Universitas Diponegoro</span>
             </a>
-            <p className="text-white/60 text-xs sm:text-sm">Departemen Teknik Elektro, Fakultas Teknik</p>
-            <p className="text-white/60 text-xs sm:text-sm">Universitas Diponegoro</p>
+            <p className="text-white/60 text-xs sm:text-sm">Jl. Prof. Soedarto, SH, Tembalang, Semarang. Jawa Tengah, Indonesia. Kode Pos 50275.</p>
+            <p className="text-white/60 text-xs sm:text-sm">{""}</p>
           </div>
         </div>
 
