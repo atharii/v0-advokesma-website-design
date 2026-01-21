@@ -11,7 +11,7 @@ export function ContactSection() {
   return (
     <section
       id="kontak"
-      className="py-16 sm:py-20 lg:py-28 bg-gradient-to-br from-elektro-dark via-elektro-primary to-elektro-dark"
+      className="py-16 lg:py-28 bg-gradient-to-br from-elektro-dark via-elektro-primary to-elektro-dark text-xs sm:py-20"
     >
       <div ref={ref} className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div

@@ -156,42 +156,11 @@ export function DivisionSection() {
                 </div>
               </AccordionTrigger>
               <AccordionContent className="px-4 sm:px-6 pb-4 sm:pb-6 pt-2">
-                {editingId === division.id ? (
-                  <div className="mb-6 pl-0 sm:pl-16">
-                    <textarea
-                      value={editingDescription}
-                      onChange={(e) => setEditingDescription(e.target.value)}
-                      className="w-full p-3 border border-border rounded-lg text-sm sm:text-base bg-muted text-foreground focus:outline-none focus:ring-2 focus:ring-elektro-primary"
-                      rows={4}
-                    />
-                    <div className="flex gap-2 mt-3">
-                      <button
-                        onClick={() => handleSaveDescription(division.id)}
-                        className="px-4 py-2 bg-elektro-primary text-white rounded-lg text-sm font-medium hover:bg-elektro-dark transition-colors"
-                      >
-                        Simpan
-                      </button>
-                      <button
-                        onClick={() => setEditingId(null)}
-                        className="px-4 py-2 bg-muted text-foreground rounded-lg text-sm font-medium hover:bg-muted/80 transition-colors"
-                      >
-                        Batal
-                      </button>
-                    </div>
-                  </div>
-                ) : (
-                  <div className="mb-6 pl-0 sm:pl-16">
-                    <p className="text-muted-foreground leading-relaxed text-sm sm:text-base mb-3">
-                      {division.description}
-                    </p>
-                    <button
-                      onClick={() => handleEditDescription(division.id)}
-                      className="text-elektro-primary text-xs sm:text-sm font-medium hover:underline"
-                    >
-                      Edit Penjelasan
-                    </button>
-                  </div>
-                )}
+                <div className="mb-6 pl-0 sm:pl-16">
+                  <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
+                    {division.description}
+                  </p>
+                </div>
 
                 <div className="mt-6 pt-6 border-t border-border">
                   <h4 className="text-sm font-semibold text-foreground mb-4 pl-0 sm:pl-16">Program Kerja</h4>

@@ -28,8 +28,8 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-br from-elektro-dark via-elektro-primary to-elektro-light" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-elektro-light/20 via-transparent to-transparent" />
 
-      <div ref={ref} className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12 lg:py-20">
-        <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
+      <div ref={ref} className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12 lg:py-20 text-xs">
+        <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center tracking-normal">
           {/* Left Content */}
           <div
             className={cn(

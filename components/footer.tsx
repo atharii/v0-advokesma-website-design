@@ -26,7 +26,7 @@ export function Footer() {
               
               <span className="text-sm">Departemen Teknik Elektro Universitas Diponegoro</span>
             </a>
-            <p className="text-white/60 text-xs sm:text-sm">Jl. Prof. Soedarto, SH, Tembalang, Semarang. Jawa Tengah, Indonesia. Kode Pos 50275.</p>
+            <p className="text-white/60 text-xs sm:text-sm">Jl. Prof. Soedarto, SH, Tembalang, Semarang. Jawa Tengah, Indonesia. 50275.</p>
             <p className="text-white/60 text-xs sm:text-sm">{""}</p>
           </div>
         </div>
