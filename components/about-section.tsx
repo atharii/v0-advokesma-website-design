@@ -19,7 +19,7 @@ export function AboutSection() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
             )}
           >
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-6 sm:mb-8 text-center">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-6 sm:mb-8 text-left">
               Tentang Bidang Advokesma
             </h2>
 
@@ -51,7 +51,7 @@ export function AboutSection() {
           alt="#KAMIDENGAR KAMISUARAKAN"
           width={1200}
           height={250}
-          className="w-full object-cover tracking-normal h-auto"
+          className="w-full object-cover tracking-normal h-56"
         />
       </div>
     </section>
