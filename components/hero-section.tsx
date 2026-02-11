@@ -72,48 +72,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          {/* Right Content - Leader Cards */}
-          <div
-            className={cn(
-              "transition-all duration-700 delay-300",
-              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
-            )}
-          >
-            <div className="text-center mb-3 sm:mb-6">
-              <span className="text-white/60 text-xs font-medium uppercase tracking-wider">Person of Advokesma</span>
-            </div>
-            <div className="grid grid-cols-2 gap-2 sm:gap-4 lg:gap-6 max-w-xs sm:max-w-md mx-auto lg:max-w-none">
-              {leaders.map((leader, index) => (
-                <Card
-                  key={leader.name}
-                  className={cn(
-                    "bg-white/10 backdrop-blur-sm border-white/20 overflow-hidden transition-all duration-500",
-                    isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
-                  )}
-                  style={{ transitionDelay: `${400 + index * 150}ms` }}
-                >
-                  <CardContent className="p-0">
-                    <div className="aspect-square relative overflow-hidden bg-elektro-dark">
-                      <Image
-                        src={leader.image || "/placeholder.svg"}
-                        alt={leader.name}
-                        fill
-                        className="object-cover object-top"
-                      />
-                    </div>
-                    <div className="p-1.5 sm:p-3 lg:p-4 text-center">
-                      <h3 className="text-white font-semibold text-[10px] sm:text-sm lg:text-lg leading-tight">
-                        {leader.name}
-                      </h3>
-                      <p className="text-white/70 text-[8px] sm:text-xs lg:text-sm leading-tight mt-0.5">
-                        {leader.position}
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
