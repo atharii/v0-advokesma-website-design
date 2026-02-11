@@ -52,7 +52,7 @@ export function HeroSection() {
             </h1>
 
             <p className="text-base sm:text-xl lg:text-2xl font-bold text-center lg:text-left text-destructive-foreground">
-              #KamiDengarKamiSuarakan
+              #KAMIDENGARKAMISUARAKAN
             </p>
 
             <p className="text-white/80 text-xs sm:text-base lg:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 text-center lg:text-left">
