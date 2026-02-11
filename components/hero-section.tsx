@@ -24,9 +24,19 @@ export function HeroSection() {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-20 sm:pt-24 overflow-hidden">
-      {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-elektro-dark via-elektro-primary to-elektro-light" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-elektro-light/20 via-transparent to-transparent" />
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-11%20at%2008.51.09%20%281%29-u4LSlSoTfen6imJzRuNL9gWaRcQNUt.jpeg"
+          alt="Teknik Elektro Building"
+          fill
+          className="object-cover object-right"
+          priority
+        />
+      </div>
+      
+      {/* Overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
 
       <div ref={ref} className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12 lg:py-20 text-xs">
         <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center tracking-normal">
@@ -41,7 +51,7 @@ export function HeroSection() {
               {"Bidang Advokesma Himpunan Mahasiswa Elektro UNDIP"}
             </h1>
 
-            <p className="text-base sm:text-xl lg:text-2xl font-bold text-white/90 text-center lg:text-left">
+            <p className="text-base sm:text-xl lg:text-2xl font-bold text-center lg:text-left text-destructive-foreground">
               #KAMIDENGARKAMISUARAKAN
             </p>
 
@@ -72,48 +82,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          {/* Right Content - Leader Cards */}
-          <div
-            className={cn(
-              "transition-all duration-700 delay-300",
-              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
-            )}
-          >
-            <div className="text-center mb-3 sm:mb-6">
-              <span className="text-white/60 text-xs font-medium uppercase tracking-wider">Person of Advokesma</span>
-            </div>
-            <div className="grid grid-cols-2 gap-2 sm:gap-4 lg:gap-6 max-w-xs sm:max-w-md mx-auto lg:max-w-none">
-              {leaders.map((leader, index) => (
-                <Card
-                  key={leader.name}
-                  className={cn(
-                    "bg-white/10 backdrop-blur-sm border-white/20 overflow-hidden transition-all duration-500",
-                    isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
-                  )}
-                  style={{ transitionDelay: `${400 + index * 150}ms` }}
-                >
-                  <CardContent className="p-0">
-                    <div className="aspect-square relative overflow-hidden bg-elektro-dark">
-                      <Image
-                        src={leader.image || "/placeholder.svg"}
-                        alt={leader.name}
-                        fill
-                        className="object-cover object-top"
-                      />
-                    </div>
-                    <div className="p-1.5 sm:p-3 lg:p-4 text-center">
-                      <h3 className="text-white font-semibold text-[10px] sm:text-sm lg:text-lg leading-tight">
-                        {leader.name}
-                      </h3>
-                      <p className="text-white/70 text-[8px] sm:text-xs lg:text-sm leading-tight mt-0.5">
-                        {leader.position}
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
