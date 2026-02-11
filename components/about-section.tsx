@@ -44,16 +44,7 @@ export function AboutSection() {
         </div>
       </div>
 
-      {/* Full-width slogan banner */}
-      <div className="w-full mt-20 sm:mt-24 lg:mt-32">
-        <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bagian%203-BssbwUzjTn1ryBBzGvBwUkCxZyLFzD.jpg"
-          alt="#KAMIDENGAR KAMISUARAKAN"
-          width={1200}
-          height={250}
-          className="w-full object-cover tracking-normal h-56"
-        />
-      </div>
+
     </section>
   )
 }

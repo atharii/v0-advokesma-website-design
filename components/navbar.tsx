@@ -44,7 +44,7 @@ export function Navbar() {
               className="w-7 h-7 sm:w-10 sm:h-10"
             />
             <Image
-              src="/images/putih-20kesma.png"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp_Image_2026-02-06_at_19.34.19__2_-removebg-previewee-8EphVnUZu0W77TvIKnyl0SlNjGURa9.png"
               alt="Logo Advokesma"
               width={40}
               height={40}
