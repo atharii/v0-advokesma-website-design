@@ -38,10 +38,10 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 
-  /* Custom Elektro Colors */
-  --elektro-primary: #005dff;
-  --elektro-dark: #0040a8;
-  --elektro-light: #3380ff;
+  /* Custom Elektro Colors - Red Palette */
+  --elektro-primary: #E63946;
+  --elektro-dark: #A4161A;
+  --elektro-light: #F77F88;
 }
 
 .dark {
