@@ -24,9 +24,19 @@ export function HeroSection() {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-20 sm:pt-24 overflow-hidden">
-      {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-elektro-dark via-elektro-primary to-elektro-light" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-elektro-light/20 via-transparent to-transparent" />
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/images/building-elektro.jpg"
+          alt="Teknik Elektro Building"
+          fill
+          className="object-cover object-right"
+          priority
+        />
+      </div>
+      
+      {/* Overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
 
       <div ref={ref} className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12 lg:py-20 text-xs">
         <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center tracking-normal">
