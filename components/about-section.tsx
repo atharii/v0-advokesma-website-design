@@ -67,7 +67,7 @@ export function AboutSection() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
               )}
             >
-              <div className="w-full h-80 sm:h-96 bg-muted border border-border flex items-center justify-center text-center">
+              <div className="h-80 bg-muted border border-border flex items-center justify-center text-center rounded-md w-full sm:h-56">
                 <p className="text-muted-foreground">Gambar Placeholder</p>
               </div>
             </div>
