@@ -20,7 +20,7 @@ export function AboutSection() {
             )}
           >
             {/* Title */}
-            <h2 className="text-2xl sm:text-3xl font-bold text-foreground text-center">
+            <h2 className="text-2xl sm:text-3xl font-bold text-foreground text-left">
               Tentang Bidang Advokesma
             </h2>
 
