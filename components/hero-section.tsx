@@ -27,7 +27,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/building-elektro.jpg"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-11%20at%2008.51.09%20%281%29-u4LSlSoTfen6imJzRuNL9gWaRcQNUt.jpeg"
           alt="Teknik Elektro Building"
           fill
           className="object-cover object-right"
