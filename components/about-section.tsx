@@ -20,7 +20,7 @@ export function AboutSection() {
             )}
           >
             {/* Title */}
-            <h2 className="text-2xl sm:text-3xl font-bold text-foreground text-left">
+            <h2 className="text-2xl sm:text-3xl font-bold text-foreground text-center">
               Tentang Bidang Advokesma
             </h2>
 
@@ -49,7 +49,7 @@ export function AboutSection() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
               )}
             >
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-6 sm:mb-8 text-left">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-6 sm:mb-8 text-center">
                 Tentang Bidang Advokesma
               </h2>
 
