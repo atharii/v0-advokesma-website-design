@@ -22,8 +22,13 @@ export function AboutSection() {
               Tentang Bidang Advokesma
             </h2>
 
-            <div className="w-full h-64 bg-muted border border-border flex items-center justify-center text-center rounded-md">
-              <p className="text-muted-foreground">Gambar Placeholder</p>
+            <div className="w-full h-64 relative rounded-md overflow-hidden">
+              <Image
+                src="/images/advokesma-team.jpg"
+                alt="ADVOKESMA Team"
+                fill
+                className="object-cover"
+              />
             </div>
 
             <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
@@ -60,8 +65,13 @@ export function AboutSection() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
               )}
             >
-              <div className="bg-muted border border-border flex items-center justify-center text-center rounded-md w-full h-52">
-                <p className="text-muted-foreground">Gambar Placeholder</p>
+              <div className="w-full h-64 relative rounded-md overflow-hidden">
+                <Image
+                  src="/images/advokesma-team.jpg"
+                  alt="ADVOKESMA Team"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
