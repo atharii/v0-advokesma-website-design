@@ -48,28 +48,22 @@ const divisions = [
       "Divisi Akademik bertanggung jawab menyediakan dukungan akademik seperti bank soal, panduan akademik, informasi Kerja Praktik (KP), MSIB, serta program-program yang membantu mahasiswa meningkatkan performa akademik.",
     programs: [
       {
-        title: "Kesma Share It!",
-        icon: Share2,
-        description:
-          "Program penyebaran informasi beasiswa, lowongan kerja, dan peluang akademik (termasuk MSIB) untuk mahasiswa dan alumni Teknik Elektro.",
-      },
-      {
-        title: "Database Kesma",
-        icon: Database,
-        description:
-          "Pengumpulan dan penyimpanan bank soal mata kuliah umum dan konsentrasi, serta database tempat Kerja Praktik.",
-      },
-      {
-        title: "Electrical Guidebook",
-        icon: BookOpen,
-        description:
-          "Panduan terintegrasi prosedur akademik dan non-akademik: IRS, pengajuan MK, alur KP, seminar, reward prestasi, dan lain-lain.",
-      },
-      {
-        title: "Watt A Scholarship!",
+        title: "KABEL",
         icon: Award,
         description:
-          "Keterlibatan Advokesma dalam EXPO beasiswa bagi mahasiswa baru, mengenalkan beragam beasiswa dan memperluas jaringan mahasiswa Elektro.",
+          "Merupakan pengembangan dari dua program sebelumnya yaitu Kesma Share It dan Watt a Scholarship yang digabungkan menjadi satu pusat layanan informasi beasiswa. Program ini bertujuan menyediakan informasi pembukaan beasiswa secara terjadwal setiap tiga bulan, baik beasiswa internal maupun eksternal.",
+      },
+      {
+        title: "Data Base ADVOKESMA",
+        icon: Database,
+        description:
+          "Program Database ADVOKESMA bertujuan menyediakan pusat data terintegrasi yang memuat kebutuhan akademik dan kesejahteraan mahasiswa, berupa bank soal, bahan ajar, serta data Kerja Praktik (KP).",
+      },
+      {
+        title: "CERTIPASS",
+        icon: BookOpen,
+        description:
+          "Career Enhancement & Readiness Training Initiative – PASS Certification. Program ini secara spesifik bertujuan menyediakan layanan sertifikasi resmi bagi mahasiswa tingkat akhir sebagai bentuk peningkatan kesiapan karier dan daya saing lulusan Teknik Elektro.",
       },
     ],
   },
@@ -93,10 +87,10 @@ const divisions = [
           "Program bantuan dana untuk mahasiswa Elektro yang membutuhkan, berdasarkan pendataan kondisi ekonomi.",
       },
       {
-        title: "Banding & Penyesuaian UKT",
+        title: "Banding dan Penyesuaian UKT",
         icon: FileText,
         description:
-          "Pendampingan mahasiswa dalam proses pengajuan banding serta penyesuaian UKT, termasuk pengecekan berkas dan alur administrasi.",
+          "Program Banding & Penyesuaian UKT bertujuan membantu mahasiswa Elektro dalam proses pengajuan banding dengan menyediakan fasilitas Pengecekan kelengkapan dokumen, serta penyediaan informasi mengenai alur dan tips banding.",
       },
     ],
   },
