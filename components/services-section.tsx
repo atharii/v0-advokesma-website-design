@@ -12,7 +12,7 @@ const services = [
     icon: FileText,
     description: "Kumpulan soal dan materi dari mata kuliah umum dan konsentrasi Teknik Elektro UNDIP.",
     buttonText: "Buka Bank Soal",
-    link: "https://bit.ly/IniBankSoalHME",
+    link: "https://drive.google.com/drive/folders/1KefLa1hCOrOQ37o_f0KGg9i0u6zfBffE?usp=sharing",
   },
   {
     title: "Banding & Penyesuaian UKT",
@@ -25,8 +25,8 @@ const services = [
     title: "Panduan Akademik Lainnya",
     icon: BookOpenCheck,
     description: "Guidebook akademik: IRS, KP, seminar, pengajuan MK, beasiswa, dsb.",
-    buttonText: "Segera Hadir",
-    link: null,
+    buttonText: "Lihat Panduan",
+    link: "https://bit.ly/PanduanAkademikHME",
   },
 ]
 
@@ -66,26 +66,20 @@ export function ServicesSection() {
                   {service.title}
                 </h3>
                 <p className="text-muted-foreground text-xs sm:text-sm mb-4 sm:mb-6 flex-grow">{service.description}</p>
-                {service.link ? (
-                  <Button
-                    asChild
-                    className="w-full bg-elektro-primary hover:bg-elektro-dark text-white text-xs sm:text-sm"
+                <Button
+                  asChild
+                  className="w-full bg-elektro-primary hover:bg-elektro-dark text-white text-xs sm:text-sm"
+                >
+                  <a
+                    href={service.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2"
                   >
-                    <a
-                      href={service.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2"
-                    >
-                      {service.buttonText}
-                      <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
-                    </a>
-                  </Button>
-                ) : (
-                  <Button disabled className="w-full bg-muted text-muted-foreground text-xs sm:text-sm">
                     {service.buttonText}
-                  </Button>
-                )}
+                    <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
+                  </a>
+                </Button>
               </CardContent>
             </Card>
           ))}

@@ -45,7 +45,7 @@ const divisions = [
     title: "Divisi Akademik",
     icon: GraduationCap,
     description:
-      "Divisi Akademik bertanggung jawab menyediakan dukungan akademik seperti bank soal, panduan akademik, informasi Kerja Praktik (KP), MSIB, serta program-program yang membantu mahasiswa meningkatkan performa akademik.",
+      "Divisi Akademik hadir sebagai jawaban atas kebutuhan peningkatan kualitas akademik mahasiswa melalui penyediaan bank soal, panduan akademik, serta penyebaran informasi beasiswa, Kerja Praktik (KP), dan peluang pengembangan akademik lainnya.",
     programs: [
       {
         title: "KABEL",
@@ -75,22 +75,22 @@ const divisions = [
       "Divisi Pelayanan berfokus pada pemenuhan kebutuhan keseharian mahasiswa Elektro, mulai dari pendataan kondisi sosial, bantuan dana atau fasilitas, hingga program apresiasi dan dukungan lain yang menunjang kenyamanan perkuliahan.",
     programs: [
       {
-        title: "CELERON",
+        title: "ELFEST",
         icon: GraduationCap,
         description:
-          "Program apresiasi wisudawan Elektro UNDIP berupa arak-arakan, konten publikasi, dan dokumentasi di setiap periode wisuda.",
+          "ELFEST (Electrical Family Engagement and Student Tribut) merupakan rebranding dari program CELERON yang saat ini menjadi program kerja kepanitian. Program ini bertujuan memberikan apresiasi kepada wisudawan Teknik Elektro UNDIP yang telah menyelesaikan masa studi.",
       },
       {
         title: "Electrical Charity (ECHA)",
         icon: Heart,
         description:
-          "Program bantuan dana untuk mahasiswa Elektro yang membutuhkan, berdasarkan pendataan kondisi ekonomi.",
+          "Electrical Charity (ECHA) merupakan program bantuan dana eksternal bagi mahasiswa Teknik Elektro yang membutuhkan.",
       },
       {
         title: "Banding dan Penyesuaian UKT",
         icon: FileText,
         description:
-          "Program Banding & Penyesuaian UKT bertujuan membantu mahasiswa Elektro dalam proses pengajuan banding dengan menyediakan fasilitas Pengecekan kelengkapan dokumen, serta penyediaan informasi mengenai alur dan tips banding.",
+          "Program Banding & Penyesuaian UKT bertujuan membantu mahasiswa Elektro dalam proses pengajuan banding dengan Pengecekan kelengkapan dokumen, serta penyediaan informasi mengenai alur dan tips banding.",
       },
     ],
   },
