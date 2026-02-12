@@ -13,7 +13,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Advokesma HME Elektro UNDIP 2025",
   description:
-    "Bidang Advokesma Himpunan Mahasiswa Elektro UNDIP - Pusat informasi advokasi, pelayanan, dan akademik untuk seluruh mahasiswa Teknik Elektro UNDIP. #KAMIDENGARKAMISUARAKAN",
+    "Bidang Advokesma Himpunan Mahasiswa Elektro UNDIP - Pusat informasi advokasi, pelayanan, dan akademik untuk seluruh mahasiswa Teknik Elektro UNDIP.",
   keywords: ["Advokesma", "HME", "Elektro", "UNDIP", "Bank Soal", "UKT", "Mahasiswa"],
   authors: [{ name: "Bidang Advokesma HME Elektro UNDIP" }],
   openGraph: {

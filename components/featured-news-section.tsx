@@ -172,15 +172,7 @@ export function FeaturedNewsSection() {
           </div>
         </div>
 
-        <div
-          className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
-        >
-          {newsItems.map((item) => (
-            <div key={item.id} className="group cursor-pointer">
-              
-            </div>
-          ))}
-        </div>
+
       </div>
     </section>
   )
