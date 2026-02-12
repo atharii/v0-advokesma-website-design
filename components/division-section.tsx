@@ -175,7 +175,7 @@ export function DivisionSection() {
                           </div>
                         </CardHeader>
                         <CardContent>
-                          <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">
+                          <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed text-justify">
                             {program.description}
                           </p>
                         </CardContent>
