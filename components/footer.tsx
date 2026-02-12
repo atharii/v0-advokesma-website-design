@@ -17,26 +17,15 @@ export function Footer() {
           </div>
 
           <div className="text-center md:text-right">
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-white/80 hover:text-white transition-colors mb-2"
-            >
-              
-              <span className="text-sm">Departemen Teknik Elektro Universitas Diponegoro</span>
-            </a>
-            <p className="text-white/60 text-xs sm:text-sm">Jl. Prof. Soedarto, SH, Tembalang, Semarang. Jawa Tengah, Indonesia. 50275.</p>
-            <p className="text-white/60 text-xs sm:text-sm">{""}</p>
+            <p className="text-white font-semibold text-sm sm:text-base">
+              Departemen Teknik Elektro Universitas Diponegoro
+            </p>
+            <p className="text-white/60 text-xs sm:text-sm mt-1">Jl. Prof. Soedarto, SH, Tembalang, Semarang. Jawa Tengah, Indonesia. 50275.</p>
           </div>
         </div>
 
         <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-white/10 text-center">
-          <p className="text-white/40 text-xs">{"© 2026 Advokesma HME Elektro UNDIP. All rights reserved."}
-
-
-
-</p>
+          <p className="text-white/40 text-xs">© 2026 Advokesma HME Elektro UNDIP. All rights reserved.</p>
         </div>
       </div>
     </footer>

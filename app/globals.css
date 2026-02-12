@@ -124,7 +124,6 @@
   --color-elektro-dark: var(--elektro-dark);
   --color-elektro-light: var(--elektro-light);
 }
-/* Added missing closing brace for @theme inline block */
 
 @layer base {
   * {

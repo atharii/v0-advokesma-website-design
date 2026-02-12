@@ -30,7 +30,7 @@ export function Navbar() {
     <nav
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        isScrolled ? "bg-elektro-dark/90 backdrop-blur-md shadow-lg" : "bg-transparent",
+        isScrolled ? "bg-elektro-dark/90 backdrop-blur-md shadow-lg" : "bg-transparent"
       )}
     >
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
@@ -43,20 +43,11 @@ export function Navbar() {
               height={40}
               className="w-7 h-7 sm:w-10 sm:h-10"
             />
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp_Image_2026-02-06_at_19.34.19__2_-removebg-previewee-8EphVnUZu0W77TvIKnyl0SlNjGURa9.png"
-              alt="Logo Advokesma"
-              width={40}
-              height={40}
-              className="w-7 h-7 sm:w-10 sm:h-10"
-            />
             <span className="text-white text-[10px] sm:text-sm font-medium">
-              <span className="hidden xs:inline sm:hidden">Advokesma</span>
-              <span className="hidden sm:inline">Advokesma HME FT UNDIP </span>
+              Advokesma HME FT UNDIP
             </span>
           </Link>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-4 lg:gap-8">
             {navLinks.map((link) => (
               <Link
@@ -69,7 +60,6 @@ export function Navbar() {
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden text-white p-1.5"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -79,7 +69,6 @@ export function Navbar() {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <div className="md:hidden bg-elektro-dark/95 backdrop-blur-md border-t border-white/10">
             <div className="flex flex-col py-2">
