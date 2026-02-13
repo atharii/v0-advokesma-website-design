@@ -12,10 +12,10 @@ export function HeroSection() {
     <section id="home" className="relative min-h-screen flex items-center pt-20 sm:pt-24 overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/images/upscalemedia-transformed-20-282-29.jpeg"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/upscalemedia-transformed.png-ljBJDSZxN6Q2eODPkGwjLVKJqrYXvs.jpeg"
           alt="Teknik Elektro Building"
           fill
-          className="object-cover object-right"
+          className="object-cover object-center"
           priority
         />
       </div>
